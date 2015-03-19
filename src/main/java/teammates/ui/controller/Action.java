@@ -31,6 +31,10 @@ import teammates.logic.api.Logic;
  * to perform the requested action, this object can talk to the back end to
  * perform that action.
  */
+/** An 'action' to be performed by the system. If the logged in user is allowed
+ * to perform the requested action, this object can talk to the back end to
+ * perform that action.
+ */
 public abstract class Action {
     protected static Logger log = Utils.getLogger();
     
